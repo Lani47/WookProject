@@ -254,7 +254,8 @@ class SoundPlayer: NSObject {
         
     } //
     //音源てんぷれ 音声を読み込む
-    let kawachiMusic = NSDataAsset(name: "河内の夢vs豊の意地")!.data
+//    let kawachiMusic = NSDataAsset(name: "河内の夢vs豊の意地")!.data
+    let kawachiMusic = NSDataAsset(name: "駅改札口")!.data
     
     //音源を扱うための変数 (入れ物)
     var kawachiPlayer: AVAudioPlayer!
