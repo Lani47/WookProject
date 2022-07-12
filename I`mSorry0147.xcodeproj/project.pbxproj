@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F4A32102877FA0D00BAC75C /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A320F2877FA0D00BAC75C /* TimerView.swift */; };
+		7F4A3212287809E000BAC75C /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A3211287809E000BAC75C /* TimerViewModel.swift */; };
+		7F4A321428780CAE00BAC75C /* soundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A321328780CAE00BAC75C /* soundPlayer.swift */; };
+		7F4A321628780FF900BAC75C /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A321528780FF900BAC75C /* SettingView.swift */; };
+		7F4A3225287D7B7100BAC75C /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A3224287D7B7100BAC75C /* SafariView.swift */; };
 		7F9FB6DD28730D2500BD28B4 /* I_mSorry0147App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9FB6DC28730D2500BD28B4 /* I_mSorry0147App.swift */; };
 		7F9FB6DF28730D2500BD28B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9FB6DE28730D2500BD28B4 /* ContentView.swift */; };
 		7F9FB6E128730D2800BD28B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F9FB6E028730D2800BD28B4 /* Assets.xcassets */; };
 		7F9FB6E428730D2800BD28B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F9FB6E328730D2800BD28B4 /* Preview Assets.xcassets */; };
+		7F9FB6EB28730DEA00BD28B4 /* JankenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9FB6EA28730DEA00BD28B4 /* JankenView.swift */; };
+		7F9FB6ED28730DFF00BD28B4 /* JankenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9FB6EC28730DFF00BD28B4 /* JankenViewModel.swift */; };
+		7F9FB6F028730E9E00BD28B4 /* SountPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9FB6EF28730E9E00BD28B4 /* SountPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F4A320F2877FA0D00BAC75C /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		7F4A3211287809E000BAC75C /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		7F4A321328780CAE00BAC75C /* soundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundPlayer.swift; sourceTree = "<group>"; };
+		7F4A321528780FF900BAC75C /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		7F4A3224287D7B7100BAC75C /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		7F9FB6D928730D2500BD28B4 /* I`mSorry0147.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I`mSorry0147.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F9FB6DC28730D2500BD28B4 /* I_mSorry0147App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_mSorry0147App.swift; sourceTree = "<group>"; };
 		7F9FB6DE28730D2500BD28B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7F9FB6E028730D2800BD28B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F9FB6E328730D2800BD28B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F9FB6EA28730DEA00BD28B4 /* JankenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JankenView.swift; sourceTree = "<group>"; };
+		7F9FB6EC28730DFF00BD28B4 /* JankenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JankenViewModel.swift; sourceTree = "<group>"; };
+		7F9FB6EF28730E9E00BD28B4 /* SountPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SountPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +48,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F4A320E2877F9E500BAC75C /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				7F4A320F2877FA0D00BAC75C /* TimerView.swift */,
+				7F4A3211287809E000BAC75C /* TimerViewModel.swift */,
+				7F4A321328780CAE00BAC75C /* soundPlayer.swift */,
+				7F4A321528780FF900BAC75C /* SettingView.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
 		7F9FB6D028730D2500BD28B4 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +80,9 @@
 			children = (
 				7F9FB6DC28730D2500BD28B4 /* I_mSorry0147App.swift */,
 				7F9FB6DE28730D2500BD28B4 /* ContentView.swift */,
+				7F4A3224287D7B7100BAC75C /* SafariView.swift */,
+				7F9FB6EE28730E0A00BD28B4 /* Janken */,
+				7F4A320E2877F9E500BAC75C /* Timer */,
 				7F9FB6E028730D2800BD28B4 /* Assets.xcassets */,
 				7F9FB6E228730D2800BD28B4 /* Preview Content */,
 			);
@@ -65,6 +95,16 @@
 				7F9FB6E328730D2800BD28B4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F9FB6EE28730E0A00BD28B4 /* Janken */ = {
+			isa = PBXGroup;
+			children = (
+				7F9FB6EA28730DEA00BD28B4 /* JankenView.swift */,
+				7F9FB6EC28730DFF00BD28B4 /* JankenViewModel.swift */,
+				7F9FB6EF28730E9E00BD28B4 /* SountPlayer.swift */,
+			);
+			path = Janken;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +179,14 @@
 			files = (
 				7F9FB6DF28730D2500BD28B4 /* ContentView.swift in Sources */,
 				7F9FB6DD28730D2500BD28B4 /* I_mSorry0147App.swift in Sources */,
+				7F4A3212287809E000BAC75C /* TimerViewModel.swift in Sources */,
+				7F9FB6F028730E9E00BD28B4 /* SountPlayer.swift in Sources */,
+				7F4A3225287D7B7100BAC75C /* SafariView.swift in Sources */,
+				7F4A321628780FF900BAC75C /* SettingView.swift in Sources */,
+				7F9FB6EB28730DEA00BD28B4 /* JankenView.swift in Sources */,
+				7F4A32102877FA0D00BAC75C /* TimerView.swift in Sources */,
+				7F4A321428780CAE00BAC75C /* soundPlayer.swift in Sources */,
+				7F9FB6ED28730DFF00BD28B4 /* JankenViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
